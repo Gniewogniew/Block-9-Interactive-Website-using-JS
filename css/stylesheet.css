@@ -18,14 +18,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .menu li {
   border-bottom: 5px solid black;
   font-family: 'Tahoma', sans-serif;
   line-height: 50px;
   padding-left: 30px;
 }
-
 .menu a {
   color: #fff;
   font-size: 22px;
@@ -33,13 +31,11 @@ body {
   text-transform: uppercase;
   font-weight:bold;
 }
-
 .icon-close {
   cursor: pointer;
   padding-left: 10px;
   padding-top: 10px;
 }
-
 .icon-menu {
   color: #fff;
   cursor: pointer;
@@ -56,6 +52,5 @@ body {
   font-size:25px;
   color:white;
   padding-left:130px;
-  padding-right:200px;
-  
+  padding-right:200px;  
 }
