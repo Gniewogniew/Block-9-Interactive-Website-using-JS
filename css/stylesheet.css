@@ -1,38 +1,37 @@
 body {
-  background:gray;
+  background:#336600;
   right: 0;
   margin: 0;
   overflow: hidden;
   position: relative;
 }
 .menu {
-  background: gray repeat left top;
+  background: #408000 repeat left top;
   left: -185px;  
   height: 100%;
   position: fixed;
   width: 185px;
 }
 .menu ul {
-  border-top: 5px solid #636366;
+  border-top: 5px solid black;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .menu li {
-  border-bottom: 5px solid #636366;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
-  padding-bottom: 3px;
+  border-bottom: 5px solid black;
+  font-family: 'Tahoma', sans-serif;
+  line-height: 50px;
   padding-left: 30px;
-  padding-top: 3px;
 }
 
 .menu a {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight:bold;
 }
 
 .icon-close {
@@ -44,14 +43,19 @@ body {
 .icon-menu {
   color: #fff;
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  padding-bottom: 25px;
-  padding-left: 25px;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 25px;
+  padding-bottom: 15px;
+  padding-left: 35px;
   padding-top: 25px;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight:bold;
 }
-.content {
+.content p{
+  font-size:25px;
+  color:white;
+  padding-left:130px;
+  padding-right:200px;
   
 }
