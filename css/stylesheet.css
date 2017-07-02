@@ -67,7 +67,6 @@ button {
   width:130px;
   height:70px;
   position:absolute;
-  transition:ease;
   left: 130px;
 }
 #dice {
