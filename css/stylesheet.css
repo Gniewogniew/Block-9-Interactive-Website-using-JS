@@ -57,3 +57,21 @@ body {
   padding-left:130px;
   padding-right:200px;  
 }
+button {
+  text-align:center;
+  font-size:22px;
+  font-family: 'Tahoma', sans-serif;
+  background: #408000;
+  border: 4px solid white;
+  border-radius: 15px;
+  width:130px;
+  height:70px;
+  position:absolute;
+  transition:ease;
+  left: 130px;
+}
+#dice {
+  font-size:35px;
+  padding-left:280px;
+  padding-top:15px;
+} 
