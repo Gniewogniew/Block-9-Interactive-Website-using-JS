@@ -7,9 +7,7 @@
   </head>
   <body>
     <div class="menu">
-      <div class="icon-close">
-        <img src="http://icons.iconarchive.com/icons/icons8/ios7/48/Very-Basic-Design-icon.png" alt="">
-      </div>
+        <img class="icon-close" src="http://icons.iconarchive.com/icons/icons8/ios7/48/Very-Basic-Design-icon.png" alt="">
         <ul>
           <li><a href="#">About</a></li>
           <li><a href="#">Blog</a></li>
@@ -17,17 +15,19 @@
           <li><a href="#">Contact</a></li>
         </ul>
     </div>
-      <div class="icon-menu">
+    <h1 class="icon-menu">
         MENU
+    </h1>
+    <div class="content">
+      <h1>Do czego tego użyć?</h1>
+        <p>
+        Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to, że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku. Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie. Wiele wersji tekstu ewoluowało i zmieniało się przez lata, czasem przez przypadek, czasem specjalnie (humorystyczne wstawki itd).
+        </p>
       </div>
-        <div class="content">
-          <p>Do czego tego użyć?<br>
-          <br>
-            Ogólnie znana teza głosi, iż użytkownika może rozpraszać zrozumiała zawartość strony, kiedy ten chce zobaczyć sam jej wygląd. Jedną z mocnych stron używania Lorem Ipsum jest to, że ma wiele różnych „kombinacji” zdań, słów i akapitów, w przeciwieństwie do zwykłego: „tekst, tekst, tekst”, sprawiającego, że wygląda to „zbyt czytelnie” po polsku. Wielu webmasterów i designerów używa Lorem Ipsum jako domyślnego modelu tekstu i wpisanie w internetowej wyszukiwarce ‘lorem ipsum’ spowoduje znalezienie bardzo wielu stron, które wciąż są w budowie. Wiele wersji tekstu ewoluowało i zmieniało się przez lata, czasem przez przypadek, czasem specjalnie (humorystyczne wstawki itd).
-          </p>
-          <button type="button" onclick="roll()"> Rzuć <br>kostkami </button> 
-            <h1 id="dice"></h1>
-         </div>
+      <div class="game">
+      <button class="button" onclick="roll()"> Rzuć kostkami </button> 
+          <span id="dice"></span>
+      </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
