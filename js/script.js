@@ -1,5 +1,5 @@
 var main = function() {
-  $('.icon-menu').click(function() {
+  if ($('.icon-menu').click(function() {
     $('.menu').animate({
       left: "0px"
     }, 200);
@@ -7,9 +7,9 @@ var main = function() {
     $('body').animate({
       left: "185px"
     }, 200);
-  });
+  }));
 
-  $('.icon-close').click(function() {
+  if ($('.icon-menu').click(function() {
     $('.menu').animate({
       left: "-185px"
     }, 200);
@@ -17,7 +17,7 @@ var main = function() {
     $('body').animate({
       left: "0px"
     }, 200);
-  });
+  }));
 };
 
 $(document).ready(main);
