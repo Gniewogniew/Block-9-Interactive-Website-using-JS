@@ -1,24 +1,27 @@
 var main = function() {
-  if ($('.icon-menu').click(function() {
+
+ if ($('.icon-menu').click(function() {
     $('.menu').animate({
       left: "0px"
     }, 200);
 
     $('body').animate({
-      left: "185px"
+      left: "285px"
     }, 200);
-  }));
-
-  if ($('.icon-menu').click(function() {
+  
+  }else{
+  
+     $('.icon-menu').click(function() {
     $('.menu').animate({
-      left: "-185px"
+      left: "-285px"
     }, 200);
 
     $('body').animate({
       left: "0px"
     }, 200);
-  }));
+  });
 };
+
 
 $(document).ready(main);
 
