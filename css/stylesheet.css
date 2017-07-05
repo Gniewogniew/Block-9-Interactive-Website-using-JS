@@ -6,9 +6,9 @@ body {
 }
 .menu {
   background: #408000;
-  left: 5px;  
+  left: -185px;  
   height: 100%;
-  position: absolute;
+  position: fixed;
   width: 185px;
 }
 .menu ul {
