@@ -1,17 +1,28 @@
-$(document).ready(function(){
-$(".icon-menu").click(function(){
-$(".menu").animate({
-left: 'toggle'
-});
-});
-});
+var isMenuOpen = false;
 
+function main() {
+  $(".icon-menu").click(function(){ 
+    if(isMenuOpen){
+      $('.menu').animate({
+      left: "0px"
+    }, 200);
+
+    $('body').animate({
+      left: "185px"
+    }, 200);
+  
+    }else{
+        $('.menu').animate({
+      left: "-185px"
+    }, 200);
+
+    $('body').animate({
+      left: "0px"
+    }, 200);
+        }
+      isMenuOpen =!isMenuOpen;  
+      }
+  
+  )
+  }
 $(document).ready(main);
-
-function roll()
-{
-  var roll1,roll2
-  roll1=parseInt(Math.random()*6+1)
-  roll2=parseInt(Math.random()*6+1)
- document.getElementById("dice").innerHTML=roll1+" , "+roll2
-}
