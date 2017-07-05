@@ -1,27 +1,12 @@
-var main = function() {
+$(document).ready(function(){
+$(".icon-menu").click(function(){
+$(".menu").animate({
+left: 'toggle'
+});
+});
+});
 
- if ($('.icon-menu').click(function() {
-    $('.menu').animate({
-      left: "0px"
-    }, 200);
-
-    $('body').animate({
-      left: "285px"
-    }, 200);
-  
-  }else{
-  
-     $('.icon-menu').click(function() {
-    $('.menu').animate({
-      left: "-285px"
-    }, 200);
-
-    $('body').animate({
-      left: "0px"
-    }, 200);
-  });
-};
-
+$(document).ready(main);
 
 $(document).ready(main);
 
