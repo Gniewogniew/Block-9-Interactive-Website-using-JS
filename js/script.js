@@ -1,7 +1,7 @@
 var isMenuOpen = false;
 
 function main() {
-  $(".icon-menu").click(function(){ 
+  $(".icon-menu").click(function){
     if(isMenuOpen){
       $(".menu").animate({
       left: "-185px"
@@ -11,6 +11,6 @@ function main() {
       left: "0px"
     }, 500);
         }
- isMenuOpen =!isMenuOpen;}
-    )}
+        isMenuOpen =!isMenuOpen;
+      })}
 $(document).ready(main)
