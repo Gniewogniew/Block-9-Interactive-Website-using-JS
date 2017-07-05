@@ -11,9 +11,6 @@ function main() {
       left: "0px"
     }, 500);
         }
-        isMenuOpen =!isMenuOpen;
-      }
-  
-  )
-  }
-$(document).ready(main);
+ isMenuOpen =!isMenuOpen;}
+    )}
+$(document).ready(main)
