@@ -8,8 +8,6 @@ left: 'toggle'
 
 $(document).ready(main);
 
-$(document).ready(main);
-
 function roll()
 {
   var roll1,roll2
