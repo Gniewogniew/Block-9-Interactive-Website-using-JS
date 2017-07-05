@@ -4,23 +4,14 @@ function main() {
   $(".icon-menu").click(function(){ 
     if(isMenuOpen){
       $('.menu').animate({
-      left: "0px"
-    }, 200);
-
-    $('body').animate({
-      left: "185px"
-    }, 200);
-  
+      left: "-185px"
+    }, 500);
     }else{
         $('.menu').animate({
-      left: "-185px"
-    }, 200);
-
-    $('body').animate({
       left: "0px"
-    }, 200);
+    }, 500);
         }
-      isMenuOpen =!isMenuOpen;  
+        isMenuOpen =!isMenuOpen;
       }
   
   )
