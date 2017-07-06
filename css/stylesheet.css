@@ -57,17 +57,3 @@ body {
 .content h1{
   font-size:25px;
 }
-button {
-  text-align:center;
-  font-size:22px;
-  font-family: 'Tahoma', sans-serif;
-  background: #408000;
-  border: 3px solid white;
-  border-radius: 15px;
-  width:130px;
-  height:70px;
-}
-#dice {
-  font-size:35px;
-  padding-left:15px;
-}
