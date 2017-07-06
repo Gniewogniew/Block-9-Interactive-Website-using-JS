@@ -6,10 +6,11 @@ body {
 }
 .menu {
   background: #408000;
-  left: -185px;  
+  left: 0px;  
   height: 100%;
   position: fixed;
   width: 185px;
+  display:none;
 }
 .menu ul {
   border-top: 4px solid black;
