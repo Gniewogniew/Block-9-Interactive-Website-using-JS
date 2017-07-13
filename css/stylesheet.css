@@ -10,7 +10,8 @@ body {
   height: 100%;
   position: fixed;
   width: 185px;
-  display:none;
+  display: none;
+  
 }
 .menu ul {
   border-top: 4px solid black;
@@ -57,4 +58,14 @@ body {
 }
 .content h1{
   font-size:25px;
+}
+button {
+  text-align:center;
+  font-size:22px;
+  font-family: 'Tahoma', sans-serif;
+  background: #408000;
+  border: 3px solid white;
+  border-radius: 15px;
+  width:130px;
+  height:70px;
 }
