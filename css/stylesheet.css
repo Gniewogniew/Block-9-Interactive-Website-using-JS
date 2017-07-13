@@ -1,8 +1,12 @@
 body {
   background:#336600;
-  right: 0;
+  right: 300;
   margin: 0;
-  position:absolute;
+  position:absolute
+}
+.move{
+  padding-left:185px;
+  animate:900;
 }
 .menu {
   background: #408000;
@@ -59,6 +63,9 @@ body {
 .content h1{
   font-size:25px;
 }
+.content p{
+   margin-right:200px; 
+  }  
 button {
   text-align:center;
   font-size:22px;
