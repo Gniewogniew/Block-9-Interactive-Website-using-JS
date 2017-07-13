@@ -6,7 +6,11 @@ body {
 }
 .move{
   padding-left:185px;
-  animate:900;
+  transition: 2s;
+}
+.moveback{
+  padding-left:0px;
+  transition: 2s;
 }
 .menu {
   background: #408000;
@@ -14,8 +18,7 @@ body {
   height: 100%;
   position: fixed;
   width: 185px;
-  display: none;
-  
+  display: none; 
 }
 .menu ul {
   border-top: 4px solid black;
